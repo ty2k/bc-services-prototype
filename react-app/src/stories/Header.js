@@ -10,8 +10,6 @@ export const Header = ({ title, user, onLogin, onLogout, onCreateAccount }) => (
     <div className="wrapper">
       <div>
         <Logo />
-      {/* </div>
-      <div> */}
         <h1>{title ? title : `Government of British Columbia` }</h1>
       </div>
       <div>
@@ -42,5 +40,5 @@ Header.propTypes = {
 };
 
 Header.defaultProps = {
-  user: null,
+  user: false,
 };
