@@ -19,7 +19,7 @@
   vertical-align: top;
 }
 
-.wrapper h1 {
+.wrapper span.span--title {
   font-weight: 900;
   font-size: 21px;
   line-height: 1;

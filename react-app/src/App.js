@@ -1,21 +1,18 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.scss";
 
 import { Header } from "./stories/Header";
 import { Nav } from "./stories/Nav";
+import { Main } from "./Main";
 
 function App() {
   return (
     <div className="App">
       <Header
-        title="Hello World!"
+        title="Services"
       />
       <Nav/>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello World!</p>
-      </header>
+      <Main/>
     </div>
   );
 }

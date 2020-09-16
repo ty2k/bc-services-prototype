@@ -22,5 +22,5 @@ Nav.propTypes = {
 
 Nav.defaultProps = {
   dark: false,
-  links: ['Services', 'Topics', 'News', 'Public Engagements', 'Jobs & MyHR', 'Get Help'],
+  links: ['Programs & Services', 'Topics', 'News', 'Public Engagements', 'Jobs & MyHR', 'Get Help'],
 };
