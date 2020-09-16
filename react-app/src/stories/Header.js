@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { Button } from "./Button";
+import { SearchBar } from "./SearchBar";
 import { ReactComponent as Logo } from "./assets/BCID_V_rgb_pos.svg";
 import "./header.css";
 
@@ -13,14 +14,15 @@ export const Header = ({ title, user, onLogin, onLogout, onCreateAccount }) => (
         <h1>{title ? title : `Government of British Columbia` }</h1>
       </div>
       <div>
+        <SearchBar/>
         {user ? (
-          <Button size="small" onClick={onLogout} label="Logout" />
+          <Button size="medium" onClick={onLogout} label="Logout" />
         ) : (
           <>
-            <Button size="small" onClick={onLogin} label="Login" />
+            <Button size="medium" onClick={onLogin} label="Login" />
             <Button
               primary
-              size="small"
+              size="medium"
               onClick={onCreateAccount}
               label="Register"
             />

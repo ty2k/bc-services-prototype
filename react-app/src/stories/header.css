@@ -12,14 +12,14 @@
   align-items: center;
 }
 
-svg {
+.wrapper svg {
   display: inline-block;
-  min-height: 80px;
-  min-width: 84px;
+  height: 80px;
+  width: 84px;
   vertical-align: top;
 }
 
-h1 {
+.wrapper h1 {
   font-weight: 900;
   font-size: 21px;
   line-height: 1;
@@ -27,6 +27,12 @@ h1 {
   display: inline-block;
 }
 
-button {
+.wrapper button {
   margin-left: 11px;
+}
+.wrapper button:first-of-type {
+  margin-left: 32px;
+}
+.wrapper button:last-of-type {
+  margin-right: 11px;
 }

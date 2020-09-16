@@ -9,7 +9,7 @@ export const Nav = ({ links, dark }) => (
   >
     <ul>
       {links.map((link) =>
-        <li><a href="">{link}</a></li>
+        <li><a href="#">{link}</a></li>
       )}
     </ul>
   </nav>
@@ -22,5 +22,5 @@ Nav.propTypes = {
 
 Nav.defaultProps = {
   dark: false,
-  links: [],
+  links: ['Services', 'Topics', 'News', 'Public Engagements', 'Jobs & MyHR', 'Get Help'],
 };
