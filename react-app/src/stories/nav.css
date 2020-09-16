@@ -1,0 +1,51 @@
+nav {
+  background-color: white;
+  font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
+  font-size: 16px;
+  height: 54px;
+  max-height: 52px;
+  width: 100%;
+}
+
+nav.nav--dark {
+  background-color: #888888;
+}
+
+nav ul {
+  border-bottom: 2px solid #D1D1D1;
+  height: 52px;
+  margin: 0;
+  max-height: 52px;
+  padding: 0;
+}
+
+nav.nav--dark ul {
+  border-bottom-color: #888888;
+}
+
+nav ul li {
+  border-bottom: 4px solid transparent;
+  display: inline-block;
+  color: #313132;
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+  padding: 0 30px;
+}
+
+nav.nav--dark ul li {
+  color: white;
+}
+
+nav ul li:focus {
+  border-bottom-color: black;
+  outline: 0;
+}
+
+nav ul li a {
+  color: #313132;
+}
+
+nav.nav--dark ul li a {
+  color: white;
+}

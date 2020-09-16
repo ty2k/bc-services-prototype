@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { Header } from "./Header";
+import { Nav } from "./Nav";
 import "./page.css";
 
 export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
@@ -12,7 +13,7 @@ export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
       onLogout={onLogout}
       onCreateAccount={onCreateAccount}
     />
-
+    <Nav />
     <section>
       <h2>Pages in Storybook</h2>
       <p>
