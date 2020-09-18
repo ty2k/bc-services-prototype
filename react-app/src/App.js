@@ -3,7 +3,7 @@ import "./App.scss";
 
 import { Header } from "./stories/Header";
 import { Nav } from "./stories/Nav";
-import { Main } from "./Main";
+import Main from "./Main";
 
 function App() {
   return (
