@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.scss";
 
 import { Header } from "./stories/Header";
 import { Nav } from "./stories/Nav";
