@@ -4,13 +4,9 @@ form.search {
   box-sizing: border-box;
   display: inline-block;
   height: 44px;
-  /* width: 336px; */
 }
 
 form.search input[type="search"] {
-  /* -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none; */
   border: 0;
   display: inline-block;
   font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
@@ -18,7 +14,6 @@ form.search input[type="search"] {
   height: 42px;
   padding: 5px;
   vertical-align: middle;
-  /* width: 292px; */
   width: calc(100% - 44px);
 }
 
