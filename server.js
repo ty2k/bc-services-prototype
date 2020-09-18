@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, 'react-app', 'build')));
 
 // API route to serve Services data to React client
 app.get('/api/services', function(req, res) {
-  res.send(servicesData);
+  res.json(servicesData);
 });
 
 // All non-API requests get served the React app
