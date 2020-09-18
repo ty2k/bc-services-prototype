@@ -4,1045 +4,1045 @@
             "name": "Adopt a child",
             "url": "https://www2.gov.bc.ca/gov/content/life-events/birth-adoption/adoptions/how-to-adopt-a-child",
             "description": "Learn about the different ways to adopt a child in B.C.",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Adoption reunion registry",
             "url": "https://www2.gov.bc.ca/gov/content/life-events/birth-adoption/adoptions/adoption-reunions-registries/adoption-reunion-registry",
             "description": "Search adoption records to find birth parents and siblings",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Affordable Childcare Benefit",
             "url": "https://www2.gov.bc.ca/gov/content/family-social-supports/caring-for-young-children/child-care-funding/child-care-benefit",
             "description": "Receive a monthly payment to help with the cost of child care",
-            "external": "No"
+            "external": false
         },
         {
             "name": "AgriService BC",
             "url": "https://www2.gov.bc.ca/gov/content/industry/agriservice-bc",
             "description": "Find funding, tools and services to help your agriculture business succeed in B.C.",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Animal Health Centre",
             "url": "https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/animals-and-crops/animal-health/animal-health-centre",
             "description": "Full-service veterinary laboratory offering more than 400 laboratory diagnostic tests for agents that may be found in wild and domestic birds, mammals, fish, reptiles and amphibians.",
-            "external": "No"
+            "external": false
         },
         {
             "name": "At Home program for children with disabilities",
             "url": "https://www2.gov.bc.ca/gov/content/health/managing-your-health/child-behaviour-development/special-needs/complex-health-needs/at-home-program",
             "description": "Support for children and teens with a severe disability or complex health care needs",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Autism funding program",
             "url": "https://www2.gov.bc.ca/gov/content/health/managing-your-health/child-behaviour-development/special-needs/autism-spectrum-disorder/autism-funding",
             "description": "Apply for funding to help pay for eligible services or supports that promote skill development for children living with autism",
-            "external": "No"
+            "external": false
         },
         {
             "name": "B.C. Identification Card (BCID)",
             "url": "https://www.icbc.com/driver-licensing/getting-licensed/Pages/Apply-for-an-enhanced-licence-ID-or-BCID.aspx",
             "description": "Apply for an enhanced licence, enhanced ID card or BCID",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "BC Assessment",
             "url": "http://www.bcassessment.ca/Pages/default.aspx",
             "description": "Find your property assessment and other property services",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "BC Auction",
             "url": "https://www.bcauction.ca/open.dll/welcome",
             "description": "Buy used surplus government assets",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "BC Bid ",
             "url": "http://www.bcbid.gov.bc.ca/open.dll/welcome",
             "description": "Bid on public sector contracts",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "BC Bus Pass Program",
             "url": "https://www2.gov.bc.ca/gov/content/transportation/passenger-travel/buses-taxis-limos/bus-pass",
             "description": "Get a bus pass as a low-income senior or Persons with Disabilities (PWDs)",
-            "external": "No"
+            "external": false
         },
         {
             "name": "BC Codes",
             "url": "http://www.bccodes.ca/",
             "description": "Find code requirements for a safely built environment",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "BC Geographical Names Search",
             "url": "http://apps.gov.bc.ca/pub/bcgnws/",
             "description": "Search B.C. place names",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "BC Human Rights Tribunal",
             "url": "http://www.bchrt.bc.ca/",
             "description": "Access an independent, quasi-judicial body responsible for accepting, screening, mediating, and adjudicating human rights complaints",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "BC Hydro",
             "url": "https://www.bchydro.com/accounts-billing.html",
             "description": "Get electricity throughout the province",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "BC Laws",
             "url": "http://www.bclaws.ca/",
             "description": "Search the laws of British Columbia",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "BC OnLine",
             "url": "https://www2.gov.bc.ca/gov/content/employment-business/business/managing-a-business/running-a-business/bc-online",
             "description": "Access government information products, filings and registrations for private and public sector business customers including corporate records, court services, manufactored home registries, personal property liens, and property assessments",
-            "external": "No"
+            "external": false
         },
         {
             "name": "BC Registries",
             "url": "https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/bc-registries-online-services",
             "description": "Register businesses, not-for-profit societies, cooperatives, personal property and manufactured homes",
-            "external": "No"
+            "external": false
         },
         {
             "name": "BC Services Card",
             "url": "https://www2.gov.bc.ca/gov/content/governments/government-id/bc-services-card",
             "description": "Get access to government services as a B.C. residents",
-            "external": "No"
+            "external": false
         },
         {
             "name": "BC Stats",
             "url": "https://www2.gov.bc.ca/gov/content/data/about-data-management/bc-stats",
             "description": "Get expert help for statistical information, products and services developed specifically for your project and business needs",
-            "external": "No"
+            "external": false
         },
         {
             "name": "BC Transplant",
             "url": "http://www.transplant.bc.ca/",
             "description": "Register to be an organ donor",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "BCeID",
             "url": "https://www.bceid.ca/",
             "description": "Create an account for online government services ",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Better Homes ",
             "url": "https://betterhomesbc.ca/",
             "description": "Find rebates for renovating or building a home",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Birth certificate",
             "url": "https://www2.gov.bc.ca/gov/content/life-events/birth-adoption/births/birth-certificates",
             "description": "Apply for or order a birth certificate",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Birth registration",
             "url": "https://www2.gov.bc.ca/gov/content/life-events/birth-adoption/births/birth-registration",
             "description": "Register your newborn baby",
-            "external": "No"
+            "external": false
         },
         {
             "name": "BizPal",
             "url": "http://www.bcbizpal.ca/eng/?b=59",
             "description": "Find the permits and licences you need for your business.",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Blueprint Builder",
             "url": "http://www.workbc.ca/blueprintbuilder",
             "description": "Explore careers, view educational resources and find a job that’s right for you",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Boating Licence",
             "url": "http://www.tc.gc.ca/eng/marinesafety/debs-obs-paperwork-paperwork_boat_licence-3212.htm",
             "description": "Apply for a pleasure craft licence",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Body armour permit",
             "url": "https://www2.gov.bc.ca/gov/content/employment-business/business/security-services/body-armour/applying-for-a-permit",
             "description": "Apply for a body armour permit",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Business or corporate names",
             "url": "https://www.bcregistrynames.gov.bc.ca/nro/",
             "description": "Request a business or corporate name",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Business registry (OneStop)",
             "url": "https://onestop.gov.bc.ca/",
             "description": "Apply for and complete registrations for a new or existing business with local, provincial and federal governments.",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Camping reservations",
             "url": "https://discovercamping.ca/",
             "description": "Reserve a campsite or get a backcountry permit",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Canada Pension Plan (CPP) - Government of Canada",
             "url": "https://www.canada.ca/en/services/benefits/publicpensions/cpp.html",
             "description": "Apply to receive your CPP monthly pension",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Canada Revenue Agency (CRA) - Government of Canada",
             "url": "https://www.canada.ca/en/revenue-agency.html",
             "description": "File your taxes and learn about Government of Canada tax laws",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Cash and carry sale of government assets",
             "url": "https://www2.gov.bc.ca/gov/content/governments/services-for-government/bc-bid-resources/goods-and-services-catalogue/asset-recovery-disposal/public-sales",
             "description": "Purchase government assets",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Certificate of name change",
             "url": "https://www2.gov.bc.ca/gov/content/life-events/legal-changes-of-name/certificate-of-change-of-name",
             "description": "Order a certificate of change of name",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Child abuse",
             "url": "https://www2.gov.bc.ca/gov/content/safety/public-safety/protecting-children/reporting-child-abuse",
             "description": "Report child abuse if you think a child or youth under 19 years of age is being abused or neglected",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Child care",
             "url": "https://www2.gov.bc.ca/gov/content/family-social-supports/caring-for-young-children/how-to-access-child-care/search-for-child-care",
             "description": "Find child care",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Child care funding",
             "url": "https://www2.gov.bc.ca/gov/content/family-social-supports/caring-for-young-children/child-care-funding",
             "description": "Get funding for child care",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Christmas trees",
             "url": "https://www2.gov.bc.ca/gov/content/industry/natural-resource-use/natural-resource-permits/christmas-tree-permits",
             "description": "Get a permit to cut down a Christmas tree on Crown land for personal use",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Civil Resolution Tribunal",
             "url": "https://www.civilresolutionbc.ca/",
             "description": "Resolve a motor vehicle injury, small claims, strata property, or societies and cooperatives disputes",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Commissioners for taking affidavits",
             "url": "https://www2.gov.bc.ca/gov/content/justice/for-legal-professionals/commissioners-for-taking-affidavits",
             "description": "Apply for an appointment as a commissioner for taking affidavits",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Congratulatory messages for anniversaries and birthdays",
             "url": "https://www.protocolapplications.gov.bc.ca/CMSForm/",
             "description": "Request congratulatory messages for significant birthdays and wedding anniversaries from The Queen or other government officials",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Court order for child support payment",
             "url": "https://www.fmep.gov.bc.ca/enrol-and-get-started/how-to-enrol/obtaining-a-court-order/",
             "description": "Get a court order for child support payment",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Court registry",
             "url": "https://justice.gov.bc.ca/cso/index.do",
             "description": "Search and file court records and documents",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Criminal record checks",
             "url": "https://www2.gov.bc.ca/gov/content/safety/crime-prevention/criminal-record-check",
             "description": "Get a criminal record check",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Crown publications",
             "url": "https://www.crownpub.bc.ca/",
             "description": "Order government publications",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Dairy licence",
             "url": "https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/animals-and-crops/agricultural-licences-and-forms/dairy",
             "description": "Get your dairy farm inspected and licenced before you can produce milk",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Death certificate",
             "url": "https://www2.gov.bc.ca/gov/content/life-events/death/death-certificates",
             "description": "Order a death certificate",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Death registration",
             "url": "https://www2.gov.bc.ca/gov/content/life-events/death/death-registration",
             "description": "Register a death",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Dietitian service",
             "url": "https://www.healthlinkbc.ca/healthy-eating/email-healthlinkbc-dietitian",
             "description": "Get general nutrition and food information from a dietitian",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Disability assistance",
             "url": "https://www2.gov.bc.ca/gov/content/family-social-supports/services-for-people-with-disabilities/disability-assistance",
             "description": "Apply for disability assistance as a designated Person with Disabilities",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Disability supports",
             "url": "https://www2.gov.bc.ca/gov/content/family-social-supports/services-for-people-with-disabilities",
             "description": "Find programs and services if you are living with a disability",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Distance and travel times Calculator",
             "url": "http://drivebc.ca/directions.html",
             "description": "Find the shortest driving route",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Document authentication",
             "url": "https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents",
             "description": "Authenticate a document by the provincial government",
-            "external": "No"
+            "external": false
         },
         {
             "name": "DriveBC",
             "url": "http://www.drivebc.ca/",
             "description": "Driving events, conditions, and other services",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Driver's licence",
             "url": "http://www.icbc.com/driver-licensing/Pages/default.aspx",
             "description": "Become a licenses driver",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "EducationPlannerBC",
             "url": "https://apply.educationplannerbc.ca/",
             "description": "Apply for admission to a post-secondary institution",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Elections BC voter registration",
             "url": "https://eregister.electionsbc.gov.bc.ca/ovr/welcome.aspx",
             "description": "Register to vote in British Columbia or update your voter registration",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Employment Insurance (EI) - Government of Canada",
             "url": "https://www.canada.ca/en/services/benefits/ei.html",
             "description": "Apply for employment insurance benefits",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Export your goods and services",
             "url": "https://www.britishcolumbia.ca/export/index/",
             "description": "Find tools for exporters to expand to new markets",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Family justice counsellors",
             "url": "https://www2.gov.bc.ca/gov/content/life-events/divorce/family-justice/who-can-help/family-justice-counsellors",
             "description": "Get counseling if you're going through a separation or divorce",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Family Maintenance Enforcement Program",
             "url": "https://www.fmep.gov.bc.ca/",
             "description": "Get help with child support and spousal support entitled under maintenance orders or agreements",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Fines, payments and traffic tickets",
             "url": "https://www2.gov.bc.ca/gov/content/justice/courthouse-services/fines-payments/pay-dispute-ticket",
             "description": "Pay or Dispute a Ticket",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Fire bans and restrictions",
             "url": "https://www2.gov.bc.ca/gov/content/safety/wildfire-status/fire-bans-and-restrictions",
             "description": "Find out what prohibitions are in place and how they may affect fire use in your area",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Firewood permit",
             "url": "https://www2.gov.bc.ca/gov/content/industry/natural-resource-use/natural-resource-permits/firewood-permits",
             "description": "Get a permit to cut firewood on Crown land for personal use",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Fishing guide licence",
             "url": "http://www.frontcounterbc.gov.bc.ca/guides/fish-wildlife/angling-guide/overview/",
             "description": "Apply to be able to guide other anglers in British Columbia",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Fishing licence",
             "url": "https://www2.gov.bc.ca/gov/content/sports-culture/recreation/fishing-hunting/fishing/recreational-freshwater-fishing-licence?keyword=fishing&keyword=licence",
             "description": "Buy a recreational freshwater fishing licence",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Food safety training",
             "url": "https://www2.gov.bc.ca/gov/content/health/keeping-bc-healthy-safe/food-safety/food-safety-courses",
             "description": "Take courses focus on processing, preparing, handling and serving food safely through FOODSAFE, MARKETSAFE, and PROCESSSAFE",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Forestry worker bridging to retirement program",
             "url": "https://forestryworkersupport.gov.bc.ca/",
             "description": "Apply for retirement bridging funding as a forestry worker",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Forestry worker job placement",
             "url": "https://www2.gov.bc.ca/gov/content/industry/forestry/supports-for-forestry-workers/forestry-worker-job-placement",
             "description": "Apply for job placement to get matched with new opportunities",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Freedom of information (FOI) requests",
             "url": "https://www2.gov.bc.ca/gov/content/governments/about-the-bc-government/open-government/open-information/freedom-of-information",
             "description": "Submit a personal or general freedom of information request",
-            "external": "No"
+            "external": false
         },
         {
             "name": "FrontCounter BC",
             "url": "http://www.frontcounterbc.gov.bc.ca/",
             "description": "Apply for licences, permits, registrations and other authorizations required to utilize the Province’s natural resources.",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Fur farming licence",
             "url": "https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/animals-and-crops/agricultural-licences-and-forms/fur-farming",
             "description": "Get a licence for farming mink, marten, fischer, fox, nutria and chinchilla fur",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Gambling event licence",
             "url": "https://www.gaming.gov.bc.ca/licences/",
             "description": "Apply for gambling event licence for bingos, lotteries, raffles, and other events",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Game farming licence",
             "url": "https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/animals-and-crops/agricultural-licences-and-forms/game-farming",
             "description": "Get a licence for game farming",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Geographic data and services",
             "url": "http://www.data.gov.bc.ca/dbc/geographic/index.page",
             "description": "Get authoritative and geographic data",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "George Massey Tunnel bicycle shuttle schedule",
             "url": "https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/cycling/cycling-regulations-restrictions-rules/george-massey-shuttle",
             "description": "Take a shuttle through the George Massey Tunnel",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Government ID",
             "url": "https://www2.gov.bc.ca/gov/content/governments/government-id",
             "description": "Prove your identity with government-issued ID",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Guide dog and service dog certification",
             "url": "https://www2.gov.bc.ca/gov/content/justice/human-rights/guide-and-service-dog",
             "description": "Apply for guide dog and service dog certification",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Guide outfitter licence",
             "url": "https://www2.gov.bc.ca/gov/content/sports-culture/recreation/fishing-hunting/hunting/guide-outfitter-licence",
             "description": "Apply to guide resident and non-resident hunters in an exclusive guide area",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Handydart and handicapped bus service",
             "url": "https://www2.gov.bc.ca/gov/content/family-social-supports/seniors/transportation/public-transit",
             "description": "Get door-to-door service for people with disabilities who need assistance to use regular public transit",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Hazardous waste transport licence",
             "url": "https://www2.gov.bc.ca/gov/content/environment/waste-management/hazardous-waste/transporting-hazardous-waste/transport-license-application-process",
             "description": "Apply for a hazardous waste transport licence",
-            "external": "No"
+            "external": false
         },
         {
             "name": "HealthLinkBC",
             "url": "http://www.healthlinkbc.ca/",
             "description": "Get health information and supports",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "High school transcripts or certificates",
             "url": "https://www2.gov.bc.ca/gov/content/education-training/k-12/support/transcripts-and-certificates",
             "description": "Order a high school transcript or graduation certificate",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Home adaptations for independence",
             "url": "https://www.bchousing.org/housing-assistance/HAFI",
             "description": "Receive a grant to make home adaptations for independent living",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Home Owner Grant",
             "url": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/annual-property-tax/home-owner-grant",
             "description": "Claim the home owner grant to reduce the amount of property tax if you live in a rural area, or are a senior, veteran or a Person with Disability",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Homeowner permits",
             "url": "https://www.technicalsafetybc.ca/permits/homeowner-permits",
             "description": "Get a permit for home renovations or repairs, including electrical or gas permits",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Hunting licence",
             "url": "https://www2.gov.bc.ca/gov/content/sports-culture/recreation/fishing-hunting/hunting",
             "description": "Apply to hunt in British Columbia",
-            "external": "No"
+            "external": false
         },
         {
             "name": "ICBC vehicles and regstration",
             "url": "http://www.icbc.com/vehicle-registration/Pages/default.aspx",
             "description": "Register a vehicle",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Income assistance",
             "url": "https://www2.gov.bc.ca/gov/content/family-social-supports/income-assistance",
             "description": "Apply for income assistance",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Indigenous organizations and services",
             "url": "https://www2.gov.bc.ca/gov/content/industry/natural-resource-use/natural-resource-permits/firewood-permits",
             "description": "Find Indigenous community-based services and organizations",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Installation permits",
             "url": "https://www.technicalsafetybc.ca/permits/installation-permits",
             "description": "Get a permit for installing, maintaining, repairing, or testing regulated equipment",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Insurance Corporation of BC (ICBC)",
             "url": "http://www.icbc.com/Pages/default.aspx",
             "description": "Get auto insurance, driver licensing, vehicle registration and other services",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Interactive geospatial map",
             "url": "http://maps.gov.bc.ca/ess/hm/imap4m/",
             "description": "Explore thousands of digital map layers for British Columbia",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Justice Access Centres",
             "url": "https://www2.gov.bc.ca/gov/content/justice/about-bcs-justice-system/jac",
             "description": "Get help with family and civil law issues",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Labour Relations Board",
             "url": "http://www.lrb.bc.ca/",
             "description": "Get mediation and adjudication for disputes in unionized workplaces",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Land titles",
             "url": "http://www.ltsa.ca/cms/",
             "description": "Search, change or transfer a land title",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Landlord and tenant disputes",
             "url": "https://www2.gov.bc.ca/gov/content/housing-tenancy/residential-tenancies/solving-problems",
             "description": "Solve problems that occur during a tenancy",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Legal Aid BC",
             "url": "http://www.lss.bc.ca/",
             "description": "Get help with the law",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Licensed contractors",
             "url": "https://www.technicalsafetybc.ca/licences",
             "description": "Obtain a licence to be a contractor working with regulated systems",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Liquor licence or permit",
             "url": "https://www2.gov.bc.ca/gov/content/employment-business/business/liquor-regulation-licensing",
             "description": "Apply for a liquor licence or permit",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Livestock dealer licences",
             "url": "https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/animals-and-crops/agricultural-licences-and-forms/livestock-dealer",
             "description": "Get a licence to be a livestock dealer or agent",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Manufactured home registry",
             "url": "https://www2.gov.bc.ca/gov/content/housing-tenancy/owning-a-home/manufactured-home-registry/register-manufactured-home",
             "description": "Register your manufactured home",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Marriage certificate",
             "url": "https://www2.gov.bc.ca/gov/content/life-events/marriage/marriage-certificates",
             "description": "Order a marriage certificate",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Marriage licence",
             "url": "https://www2.gov.bc.ca/gov/content/life-events/marriage/marriage-licences",
             "description": "Buy a marriage licence",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Marriage registration",
             "url": "https://www2.gov.bc.ca/gov/content/life-events/marriage/marriage-registration",
             "description": "Register your marriage",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Medical Services Plan (MSP)",
             "url": "https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents",
             "description": "Enrol in the Medical Services Plan to get health insurance in B.C.",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Mental health and substance use supports",
             "url": "https://www2.gov.bc.ca/gov/content/mental-health-support-in-bc",
             "description": "Find information and services for mental health and substance use",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Mine inspection fee",
             "url": "https://www2.gov.bc.ca/gov/content/taxes/natural-resource-taxes/mining/mine-inspection-fee",
             "description": "Pay a mine inspection fee",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Mineral titles disputes and complaints",
             "url": "http://www.surfacerightsboard.bc.ca/HowToApply/",
             "description": "Apply to the Surface Rights Board for mediation and arbitration services",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Mineral Titles Online",
             "url": "https://www2.gov.bc.ca/gov/content/industry/mineral-exploration-mining/mineral-titles",
             "description": "Access the mineral titles administration system",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Mobile business licence",
             "url": "https://www2.gov.bc.ca/gov/content/employment-business/business/small-business/mobile-business-licence-program",
             "description": "Apply for a mobile business license to operate across participating jurisdictions. Also called an inter-community or inter-muncipal business licence",
-            "external": "No"
+            "external": false
         },
         {
             "name": "My Self Serve",
             "url": "https://myselfserve.gov.bc.ca/",
             "description": "Manage your income and disability assistance",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Name change",
             "url": "https://www2.gov.bc.ca/gov/content/life-events/legal-changes-of-name/legal-change-of-name-application",
             "description": "Apply for a legal change of name",
-            "external": "No"
+            "external": false
         },
         {
             "name": "New homes registry",
             "url": "https://lims.bchousing.org/LIMSPortal/registry/Newhomes/",
             "description": "Search the new homes registry",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Non-medical cannabis licence",
             "url": "https://www2.gov.bc.ca/gov/content/employment-business/business/liquor-regulation-licensing/cannabis-regulation",
             "description": "Apply for a non-medical cannabis licence",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Notary public",
             "url": "http://www.notaries.bc.ca/findNotary/searchForm.rails",
             "description": "Become a notary",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Old Age Security (OAS) - Government of Canada",
             "url": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security.html",
             "description": "Learn about the Old Age Security pension",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Open School BC ",
             "url": "http://openschool.bc.ca/",
             "description": "Get help with instructional design, educational resource development and online course offerings for public sector organizations",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Operating permits",
             "url": "https://www.technicalsafetybc.ca/permits/operating-permits",
             "description": "Get a permit for operating or maintaining regulated equipment or systems",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Owner builder",
             "url": "https://www.bchousing.org/licensing-consumer-services/owner-builder/",
             "description": "Apply for an owner builder authorization to build your own home and lead the project",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Passenger transportation licence",
             "url": "https://www2.gov.bc.ca/gov/content/transportation/vehicle-safety-enforcement/services/passenger-transportation/licences",
             "description": "Apply for a general or specialized authorization licence to operate commercial passenger vehicles",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Passports - Government of Canada",
             "url": "https://www.canada.ca/en/employment-social-development/services/passport.html",
             "description": "Apply for or renew a Canadian passport",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "PharmaCare",
             "url": "https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/pharmacare-for-bc-residents",
             "description": "Register for PharmaCare to get help paying for eligible prescription drugs, certain medical supplies, and pharmacy services",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Plant Health Laboratory",
             "url": "https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/animals-and-crops/plant-health/plant-health-laboratory",
             "description": "Get diagnosis of plant health problems caused by insects and disease affecting crops and plants grown in B.C.",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Poultry licence",
             "url": "https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/animals-and-crops/agricultural-licences-and-forms/poultry",
             "description": "Get a licence for the purchase of live poultry for processing and resale",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Proclamations",
             "url": "https://www2.gov.bc.ca/gov/content/governments/celebrating-british-columbia/proclamations",
             "description": "Request a proclamation to give official recognition to occasions or events of provincial importance",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Property Assessment Appeal Board",
             "url": "http://www.assessmentappeal.bc.ca/",
             "description": "Submit a property assessment appeal",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Property tax deferment ",
             "url": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/annual-property-tax/defer-taxes",
             "description": "Defer your property tax if you're a qualified homeowner",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Protection order registry",
             "url": "https://www2.gov.bc.ca/gov/content/safety/crime-prevention/protection-order-registry",
             "description": "Confirm your protection order",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Public Guardian and Trustee of B.C.",
             "url": "http://www.trustee.bc.ca/Pages/default.aspx",
             "description": "Services to protect the legal and financial interests of children under the age of 19 years, protect the legal, financial, personal and health care interests of adults who require assistance in decision making, and administer the estates of deceased and missing persons",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Public registry of residential builders",
             "url": "https://lims.hpo.bc.ca/prs/",
             "description": "Search the registry of residential builders, including building envelope renovators",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Recreation Sites and Trails",
             "url": "http://www.sitesandtrailsbc.ca/default.aspx",
             "description": "Find recreation sites and trails across the province",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Registry of Autism Support Providers (RASP)",
             "url": "https://www2.gov.bc.ca/gov/content/health/managing-your-health/child-behaviour-development/special-needs/autism-spectrum-disorder/build-your-support-team/registry-autism-service-providers",
             "description": "Find a qualified professional who provides support in your community",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Rental assistance",
             "url": "https://www.bchousing.org/housing-assistance/rental-assistance/RAP",
             "description": "Receive cash assistance to help with monthly rent payments",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Residential builder licence",
             "url": "https://lims.hpo.bc.ca/LIMSPortal/LRBPortal/LRBNewLicenceApplication.aspx",
             "description": "Apply to be a licensed residential builder",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Residential construction disputes",
             "url": "https://www.bchousing.org/licensing-consumer-services/new-homes/dispute-resolution",
             "description": "Resolve residential construction disputes",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Royal BC Museum tickets and reservations",
             "url": "http://royalbcmuseum.bc.ca/",
             "description": "Visit and reserve your tickets to the Royal BC Museum",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Safety incidents or hazards",
             "url": "https://www.technicalsafetybc.ca/report-incident-hazard",
             "description": "Report a safety incident or hazard involving work or regulated equipment",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Safety inspections",
             "url": "https://www.technicalsafetybc.ca/inspections",
             "description": "Get your work inspected",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Seafood industry licences",
             "url": "https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/fisheries-and-aquaculture/seafood-industry-licensing",
             "description": "Apply for a fish receiver, seafood processor, or fisher vendor licence",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Security business licence",
             "url": "https://www2.gov.bc.ca/gov/content/employment-business/business/security-services/security-industry-licensing/businesses",
             "description": "Apply to be a business that provides security services",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Security worker licence",
             "url": "https://www2.gov.bc.ca/gov/content/employment-business/business/security-services/security-industry-licensing/workers",
             "description": "Apply to be a security worker",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Service Canada - Government of Canada",
             "url": "https://www.canada.ca/en/employment-social-development/corporate/portfolio/service-canada.html",
             "description": "Access Government of Canada programs and services",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Single parent employment initiative",
             "url": "https://www2.gov.bc.ca/gov/content/family-social-supports/income-assistance/on-assistance/employment-planning/spei",
             "description": "Apply for training and support to secure a long-term job as a single parent receiving income or disability assistance",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Small Business BC",
             "url": "http://smallbusinessbc.ca/",
             "description": "Get help growing a successful and sustainable businesses through expert business advisors, educational services, free resources and engaging community events",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Small claims court",
             "url": "https://www2.gov.bc.ca/gov/content/justice/courthouse-services/small-claims",
             "description": "Make a claim in small claims court",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Social Insurance Number (SIN) - Government of Canada",
             "url": "https://www.canada.ca/en/employment-social-development/services/sin.html",
             "description": "Apply for a Social Insurance Number",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Societies Online",
             "url": "https://www.bcregistry.ca/societies/",
             "description": "Submit a society approval name request, incorporate a society and other filings and services",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Special event permit for liquor",
             "url": "https://specialevents.bcldb.com/",
             "description": "Apply for a special event permit to provide temporary or infrequent liquor service at events such as family gatherings, private functions, community festivals and manufacturer tastings",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Speculation and vacancy tax",
             "url": "https://www2.gov.bc.ca/gov/content/taxes/speculation-vacancy-tax/how-tax-works",
             "description": "Declare your residency status and how your property is being used",
-            "external": "No"
+            "external": false
         },
         {
             "name": "StudentAid BC",
             "url": "https://studentaidbc.ca/",
             "description": "Apply, maintain, and repay your student loan",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Stumpage",
             "url": "https://www2.gov.bc.ca/gov/content/taxes/natural-resource-taxes/forestry/stumpage",
             "description": "Pay stumpage when you harvest timber from Crown land in B.C.",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Teacher certificates",
             "url": "https://www2.gov.bc.ca/gov/content/education-training/k-12/teach/teacher-certification",
             "description": "Get certified to teach in B.C.",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Timber sale licences",
             "url": "https://www2.gov.bc.ca/gov/content/industry/forestry/bc-timber-sales/tsl",
             "description": "Register to submit a bid for a timber sale licence auction",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Toll-free health line (8-1-1)",
             "url": "http://www.healthlinkbc.ca/abouthealthlinkbc/contactus/",
             "description": "Speak to a registered nurse, dietician, exercise professional, or pharmacist",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Trade certifications",
             "url": "https://www.technicalsafetybc.ca/certification",
             "description": "Obtain or renew your trade certification",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Traffic and wait times at the U.S. border",
             "url": "http://www.th.gov.bc.ca/ATIS/index.htm",
             "description": "See the traffic and wait times at all lower mainland border crossings",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Traffic tickets and penalties",
             "url": "http://www.icbc.com/driver-licensing/tickets/Pages/Default.aspx",
             "description": "Learn how to pay or dispute a ticket, and learn more about penalties, including points, prohibitions, impoundments, and suspensions",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Traffic violation ticket – PayBC",
             "url": "http://pay.gov.bc.ca/",
             "description": "Pay a traffic violation ticket online",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Veterinary drug licences",
             "url": "https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/animals-and-crops/agricultural-licences-and-forms/veterinary-drug-licensing",
             "description": "Apply for veterinary drug licenses ",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Victim notification",
             "url": "https://www2.gov.bc.ca/gov/content/justice/criminal-justice/bcs-criminal-justice-system/if-you-are-a-victim-of-a-crime/victim-of-crime/victim-notification",
             "description": "Register to be notified for ongoing information while an accused or offender is in the community",
-            "external": "No"
+            "external": false
         },
         {
             "name": "VictimLink BC",
             "url": "https://www2.gov.bc.ca/gov/content/justice/criminal-justice/victims-of-crime/victimlinkbc",
             "description": "Get confidential information and referral services for all victims of crime, and immediate crisis support to victims of family and sexual violence, human trafficking exploited for labour, or sexual services.",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Vital statistic",
             "url": "https://www2.gov.bc.ca/gov/content/life-events/order-certificates-copies",
             "description": "Download forms relating to births, adoption, marriage, death, legal changes of name, and genealogy",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Water licences and approvals",
             "url": "http://www.env.gov.bc.ca/wsd/water_rights/licence_application/index.html",
             "description": "Apply to divert, use or store surface water or groundwater, or to make changes in and about a stream.",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "WelcomeBC ",
             "url": "http://www.welcomebc.ca/",
             "description": "Services and information for newcomers to British Columbia",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Wildfire activity",
             "url": "https://www2.gov.bc.ca/gov/content/safety/wildfire-status/wildfire-situation",
             "description": "Get information on current wildfire activity in B.C., including details about specific wildfires, fire response efforts, and Fire Danger Ratings across the province",
-            "external": "No"
+            "external": false
         },
         {
             "name": "Wills registry",
             "url": "https://www2.gov.bc.ca/gov/content/life-events/death/wills-registry",
             "description": "File a wills notice or search for a wills notice as part of an estate probate",
-            "external": "No"
+            "external": false
         },
         {
             "name": "WorkBC",
             "url": "https://www.workbc.ca/",
             "description": "Find job postings, industry and career Information, and employer resources",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Worker insurance coverage",
             "url": "https://www.worksafebc.com/en/insurance/apply-for-coverage",
             "description": "Apply for WorkSafeBC insurance coverage",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "Workplace injury or disease",
             "url": "https://www.worksafebc.com/en/claims",
             "description": "Report a workplace injury or disease",
-            "external": "Yes"
+            "external": true
         },
         {
             "name": "WorkSafeBC",
             "url": "https://www.worksafebc.com/en",
             "description": "Find out about workplace health and safety",
-            "external": "Yes"
+            "external": true
         }
     ]
 }
