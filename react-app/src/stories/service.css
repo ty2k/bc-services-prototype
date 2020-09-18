@@ -10,3 +10,8 @@ div.div--service span.span--service-title {
   font-size: 20px;
   font-weight: 700;
 }
+
+div.div--service span.span--service-title svg {
+  height: 1em;
+  padding-left: 5px;
+}
