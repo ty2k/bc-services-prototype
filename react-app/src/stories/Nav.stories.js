@@ -3,7 +3,7 @@ import React from "react";
 import { Nav } from "./Nav";
 
 export default {
-  title: "Example/Nav",
+  title: "Services Page Prototype/Nav",
   component: Nav,
   argTypes: {
     dark: { control: "boolean" },

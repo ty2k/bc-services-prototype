@@ -3,7 +3,7 @@ import React from "react";
 import { SearchBar } from "./SearchBar";
 
 export default {
-  title: "Example/SearchBar",
+  title: "Services Page Prototype/SearchBar",
   component: SearchBar,
   argTypes: {
     icon: { control: "boolean" },
