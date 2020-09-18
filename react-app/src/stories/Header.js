@@ -11,7 +11,9 @@ export const Header = ({ title, user, onLogin, onLogout, onCreateAccount }) => (
     <div className="wrapper">
       <div>
         <Logo />
-        <h1>{title ? title : `Government of British Columbia` }</h1>
+        <span className="span--title">
+          {title ? title : `Government of British Columbia` }
+        </span>
       </div>
       <div>
         <SearchBar/>

@@ -1,0 +1,16 @@
+div.div--service-highlight {
+  display: flex;
+  align-items: center;
+  border: 1px solid #C9C9C9;
+  padding: 20px 15px;
+}
+
+div.div--service-highlight img {
+  height: 90px;
+  padding: 0 20px 0 0;
+}
+
+div.div--service-highlight span.span--service-title svg {
+  height: 1em;
+  padding-left: 5px;
+}

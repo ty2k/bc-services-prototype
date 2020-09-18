@@ -3,10 +3,6 @@ import PropTypes from "prop-types";
 
 import "./searchbar.css";
 
-function handleClick(e) {
-  return null;
-}
-
 export const SearchBar = ({ icon }) => (
   <form className="search">
     <input type="search" aria-label="Search"/>
