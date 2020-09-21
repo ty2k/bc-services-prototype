@@ -14,7 +14,7 @@ function Main() {
   const [services, setServices] = useState({});
 
   async function fetchData() {
-    const res = await fetch('http://localhost:8080/api/services');
+    const res = await fetch('/api/services');
     res
       .json()
       .then(res => setServices(res.services))
