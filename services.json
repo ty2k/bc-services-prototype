@@ -80,7 +80,6 @@
         },
         {
             "name": "BC Emergency Workers Benefit",
-            "nameTitleCase": "B.C. Emergency Workers Benefit",
             "url": "https://www2.gov.bc.ca/gov/content/employment-business/covid-19-financial-supports/emergency-benefit-workers",
             "description": "Description for BC Emergency Workers Benefit",
             "external": false,
@@ -418,8 +417,7 @@
             "external": true
         },
         {
-            "name": "Fishing licence",
-            "nameTitleCase": "Freshwater Fishing License",
+            "name": "Freshwater fishing licence",
             "url": "https://www2.gov.bc.ca/gov/content/sports-culture/recreation/fishing-hunting/fishing/recreational-freshwater-fishing-licence?keyword=fishing&keyword=licence",
             "description": "Buy a recreational freshwater fishing licence",
             "external": false,
@@ -523,8 +521,7 @@
             "external": true
         },
         {
-            "name": "High school transcripts or certificates",
-            "nameTitleCase": "High School Transcripts & Certificates",
+            "name": "High school transcripts and certificates",
             "url": "https://www2.gov.bc.ca/gov/content/education-training/k-12/support/transcripts-and-certificates",
             "description": "Order a high school transcript or graduation certificate",
             "external": false,
@@ -550,8 +547,7 @@
             "external": true
         },
         {
-            "name": "Hunting licence",
-            "nameTitleCase": "Limited Entry Hunting Permit",
+            "name": "Limited entry hunting permit",
             "url": "https://www2.gov.bc.ca/gov/content/sports-culture/recreation/fishing-hunting/hunting",
             "description": "Apply to hunt in British Columbia",
             "external": false,
@@ -667,8 +663,7 @@
             "external": false
         },
         {
-            "name": "Medical Services Plan (MSP)",
-            "nameTitleCase": "Medical Services Plan",
+            "name": "Medical Services Plan",
             "url": "https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents",
             "description": "Enrol in the Medical Services Plan to get health insurance in B.C.",
             "external": false,
@@ -935,7 +930,6 @@
         },
         {
             "name": "Speculation and vacancy tax",
-            "nameTitleCase": "Speculation and Vacancy Tax",
             "url": "https://www2.gov.bc.ca/gov/content/taxes/speculation-vacancy-tax/how-tax-works",
             "description": "Declare your residency status and how your property is being used",
             "external": false,

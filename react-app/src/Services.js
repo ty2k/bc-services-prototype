@@ -39,10 +39,10 @@ function Services() {
           services.length > 0 &&
           services
             .filter(service => service.highlight === true)
-            .map(({name, nameTitleCase, url, external, image}, index) => (
+            .map(({name, url, external, image}, index) => (
               <ServiceHighlight
                 key={index && ` - ` && name}
-                name={nameTitleCase}
+                name={name}
                 icon={image}
                 url={url}
                 external={external}
