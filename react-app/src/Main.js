@@ -43,7 +43,6 @@ function Main() {
           name="B.C. Emergency Workers Benefit"
           icon={icon41}
           url="https://www2.gov.bc.ca/gov/content/employment-business/covid-19-financial-supports/emergency-benefit-workers"
-          external
         />
         <ServiceHighlight
           key="medical-services-plan"
