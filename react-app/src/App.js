@@ -11,7 +11,9 @@ function App() {
         title="Services"
       />
       <Nav/>
-      <Main/>
+      <Main
+        title="Programs &amp; Services"
+      />
     </div>
   );
 }
