@@ -3,12 +3,6 @@ import "./Services.scss";
 
 import { Service } from "./stories/Service";
 import { ServiceHighlight } from "./stories/ServiceHighlight";
-import icon41 from "./img/u41.png"; // B.C. Emergency Workers Benefit
-import icon37 from "./img/u37.png"; // Medical Services Plan
-import icon38 from "./img/u38.png"; // Freshwater Fishing License
-import icon39 from "./img/u39.png"; // Limited Entry Hunting Permit
-import icon36 from "./img/u36.png"; // Speculation and Vacancy Tax
-import icon40 from "./img/u40.png"; // High School Transcripts & Certificates
 
 function Services() {
   const [services, setServices] = useState({});
@@ -27,6 +21,8 @@ function Services() {
 
   return (
     <div className="div--services-container">
+
+      {/* Search bar */}
       <div className="div--search">
         <h2>Find a program or service</h2>
         <form>
@@ -36,44 +32,25 @@ function Services() {
           <button></button>
         </form>
       </div>
+
+      {/* Service highlight cards */}
       <div className="div--service-highlight-container">
-        <ServiceHighlight
-          key="bc-emergency-workers-benefit"
-          name="B.C. Emergency Workers Benefit"
-          icon={icon41}
-          url="https://www2.gov.bc.ca/gov/content/employment-business/covid-19-financial-supports/emergency-benefit-workers"
-        />
-        <ServiceHighlight
-          key="medical-services-plan"
-          name="Medical Services Plan"
-          icon={icon37}
-          url="https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents"
-        />
-        <ServiceHighlight
-          key="freshwater-fishing-license"
-          name="Freshwater Fishing License"
-          icon={icon38}
-          url="https://www2.gov.bc.ca/gov/content/sports-culture/recreation/fishing-hunting/fishing/recreational-freshwater-fishing-licence?keyword=fishing&keyword=licence"
-        />
-        <ServiceHighlight
-          key="limited-entry-hunting-permit"
-          name="Limited Entry Hunting Permit"
-          icon={icon39}
-          url="https://www2.gov.bc.ca/gov/content/sports-culture/recreation/fishing-hunting/hunting"
-        />
-        <ServiceHighlight
-          key="speculation-and-vacancy-tax"
-          name="Speculation and Vacancy Tax"
-          icon={icon36}
-          url="https://www2.gov.bc.ca/gov/content/taxes/speculation-vacancy-tax/how-tax-works"
-        />
-        <ServiceHighlight
-          key="high-school-transcripts-and-certificates"
-          name="High School Transcripts &amp; Certificates"
-          icon={icon40}
-          url="https://www2.gov.bc.ca/gov/content/education-training/k-12/support/transcripts-and-certificates"
-        />
+        {services &&
+          services.length > 0 &&
+          services
+            .filter(service => service.highlight === true)
+            .map(({name, nameTitleCase, url, external, image}, index) => (
+              <ServiceHighlight
+                key={index && ` - ` && name}
+                name={nameTitleCase}
+                icon={image}
+                url={url}
+                external={external}
+              />
+        ))}
       </div>
+
+      {/* Services list */}
       {services && services.length > 0 && services.map(({name, description, url, external}, index) => (
         <Service
           key={index}
@@ -83,6 +60,7 @@ function Services() {
           external={external}
         />
       ))}
+
     </div>
   );
 }

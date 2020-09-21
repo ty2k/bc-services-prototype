@@ -79,6 +79,15 @@
             "external": true
         },
         {
+            "name": "BC Emergency Workers Benefit",
+            "nameTitleCase": "B.C. Emergency Workers Benefit",
+            "url": "https://www2.gov.bc.ca/gov/content/employment-business/covid-19-financial-supports/emergency-benefit-workers",
+            "description": "Description for BC Emergency Workers Benefit",
+            "external": false,
+            "highlight": true,
+            "image": "icon41"
+        },
+        {
             "name": "BC Geographical Names Search",
             "url": "http://apps.gov.bc.ca/pub/bcgnws/",
             "description": "Search B.C. place names",
@@ -410,9 +419,12 @@
         },
         {
             "name": "Fishing licence",
+            "nameTitleCase": "Freshwater Fishing License",
             "url": "https://www2.gov.bc.ca/gov/content/sports-culture/recreation/fishing-hunting/fishing/recreational-freshwater-fishing-licence?keyword=fishing&keyword=licence",
             "description": "Buy a recreational freshwater fishing licence",
-            "external": false
+            "external": false,
+            "highlight": true,
+            "image": "icon38"
         },
         {
             "name": "Food safety training",
@@ -512,9 +524,12 @@
         },
         {
             "name": "High school transcripts or certificates",
+            "nameTitleCase": "High School Transcripts & Certificates",
             "url": "https://www2.gov.bc.ca/gov/content/education-training/k-12/support/transcripts-and-certificates",
             "description": "Order a high school transcript or graduation certificate",
-            "external": false
+            "external": false,
+            "highlight": true,
+            "image": "icon40"
         },
         {
             "name": "Home adaptations for independence",
@@ -536,9 +551,12 @@
         },
         {
             "name": "Hunting licence",
+            "nameTitleCase": "Limited Entry Hunting Permit",
             "url": "https://www2.gov.bc.ca/gov/content/sports-culture/recreation/fishing-hunting/hunting",
             "description": "Apply to hunt in British Columbia",
-            "external": false
+            "external": false,
+            "highlight": true,
+            "image": "icon39"
         },
         {
             "name": "ICBC vehicles and regstration",
@@ -650,9 +668,12 @@
         },
         {
             "name": "Medical Services Plan (MSP)",
+            "nameTitleCase": "Medical Services Plan",
             "url": "https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents",
             "description": "Enrol in the Medical Services Plan to get health insurance in B.C.",
-            "external": false
+            "external": false,
+            "highlight": true,
+            "image": "icon37"
         },
         {
             "name": "Mental health and substance use supports",
@@ -914,9 +935,12 @@
         },
         {
             "name": "Speculation and vacancy tax",
+            "nameTitleCase": "Speculation and Vacancy Tax",
             "url": "https://www2.gov.bc.ca/gov/content/taxes/speculation-vacancy-tax/how-tax-works",
             "description": "Declare your residency status and how your property is being used",
-            "external": false
+            "external": false,
+            "highlight": true,
+            "image": "icon36"
         },
         {
             "name": "StudentAid BC",
