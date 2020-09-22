@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Highlighter from "react-highlight-words";
 
 import "./servicehighlight.css";
 import { ReactComponent as IconExt } from "./assets/external-link-alt-solid.svg";
@@ -20,7 +21,7 @@ const icons = {
   icon40
 }
 
-export const ServiceHighlight= ({ name, icon, url, external }) => (
+export const ServiceHighlight= ({ name, icon, url, external, searchTerm }) => (
   <div className="div--service-highlight">
     <img
       src={icons[icon]}
@@ -28,7 +29,12 @@ export const ServiceHighlight= ({ name, icon, url, external }) => (
     />
     <span className="span--service-title">
       <a href={url}>
-        {name}
+        <Highlighter
+          highlightClassName="text--highlighted"
+          searchWords={[searchTerm]}
+          autoEscape={true}
+          textToHighlight={name}
+        />
       </a>
       { external ? <IconExt/> : null }
     </span>
@@ -39,12 +45,14 @@ ServiceHighlight.propTypes = {
   name: PropTypes.string,
   icon: PropTypes.string,
   url: PropTypes.string,
-  external: PropTypes.bool
+  external: PropTypes.bool,
+  searchTerm: PropTypes.string
 };
 
 ServiceHighlight.defaultProps = {
   name: "ServiceHighlight",
   icon: "example.svg",
   url: "https://gov.bc.ca",
-  external: false
+  external: false,
+  searchTerm: ""
 };

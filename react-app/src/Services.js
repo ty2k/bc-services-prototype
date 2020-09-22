@@ -59,6 +59,7 @@ function Services() {
                 icon={image}
                 url={url}
                 external={external}
+                searchTerm={inputValue.toLowerCase()}
               />
             ))}
       </div>
@@ -81,6 +82,7 @@ function Services() {
               description={description}
               url={url}
               external={external}
+              searchTerm={inputValue.toLowerCase()}
             />
           ))}
     </div>
