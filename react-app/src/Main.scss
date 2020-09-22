@@ -1,8 +1,25 @@
 main {
   margin: 0 auto;
-  max-width: 970px;
+  width: 100%;
 }
-
 main h1 {
-  margin: 36px 0 21px 0;
+  margin: 20px 15px;
+}
+@media (min-width: 576px) {
+  main {
+    max-width: 576px;
+  }
+}
+@media (min-width: 768px) {
+  main {
+    max-width: 728px;
+  }
+  main h1 {
+    margin: 36px 0 20px 0;
+  }
+}
+@media (min-width: 992px) {
+  main {
+    max-width: 952px;
+  }
 }

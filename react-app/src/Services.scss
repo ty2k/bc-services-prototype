@@ -44,11 +44,28 @@ div.div--search form button {
 }
 
 div.div--service-highlight-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 20px;
-  row-gap: 20px;
+  display: block;
   margin: 0 0 20px 0;
+}
+@media (min-width: 576px) {
+  div.div--service-highlight-container {
+    max-width: 576px;
+  }
+}
+@media (min-width: 768px) {
+  div.div--service-highlight-container {
+    max-width: 768px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+}
+@media (min-width: 992px) {
+  div.div--service-highlight-container {
+    max-width: 970px;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .text--highlighted {
