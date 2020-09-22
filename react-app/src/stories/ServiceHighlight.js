@@ -22,7 +22,10 @@ const icons = {
 
 export const ServiceHighlight= ({ name, icon, url, external }) => (
   <div className="div--service-highlight">
-    <img src={icons[icon]} />
+    <img
+      src={icons[icon]}
+      alt=""
+    />
     <span className="span--service-title">
       <a href={url}>
         {name}
