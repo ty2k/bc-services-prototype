@@ -9,7 +9,7 @@ export const Nav = ({ links, dark }) => (
   >
     <ul>
       {links.map((link) =>
-        <li><a href="#">{link}</a></li>
+        <li><a href="/#">{link}</a></li>
       )}
     </ul>
   </nav>
