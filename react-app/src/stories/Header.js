@@ -4,13 +4,18 @@ import PropTypes from "prop-types";
 import { Button } from "./Button";
 import { SearchBar } from "./SearchBar";
 import { ReactComponent as Logo } from "./assets/BCID_V_rgb_pos.svg";
+import { ReactComponent as HamburgerIcon } from "./assets/bars-solid.svg";
 import "./header.css";
+
+function toggleMenu(event) {
+  console.log(event);
+}
 
 export const Header = ({ title, user, onLogin, onLogout, onCreateAccount }) => (
   <header>
     <div className="wrapper">
       <div>
-        <Logo />
+        <Logo id="logo" />
         <span className="span--title">
           {title ? title : `Government of British Columbia` }
         </span>
@@ -30,6 +35,14 @@ export const Header = ({ title, user, onLogin, onLogout, onCreateAccount }) => (
             />
           </>
         )}
+        <a
+          href="/#"
+          onClick={(event) => toggleMenu(event)}
+          id="menu-icon"
+        >
+          <HamburgerIcon />
+          <span>Menu</span>
+        </a>
       </div>
     </div>
   </header>
