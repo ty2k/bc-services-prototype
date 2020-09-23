@@ -1,4 +1,4 @@
-nav {
+nav.nav {
   background-color: white;
   font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
   font-size: 16px;
@@ -9,6 +9,10 @@ nav {
 
 nav.nav--dark {
   background-color: #888888;
+}
+
+nav.nav--hidden {
+  display: none;
 }
 
 nav ul {
