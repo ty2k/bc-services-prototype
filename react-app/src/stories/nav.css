@@ -16,7 +16,7 @@ nav.nav--hidden {
 }
 
 nav ul {
-  border-bottom: 2px solid #D1D1D1;
+  border-bottom: 2px solid #d1d1d1;
   height: 52px;
   margin: 0;
   max-height: 52px;
@@ -36,6 +36,35 @@ nav ul li {
   margin: 0;
   padding: 0 30px;
 }
+@media (max-width: 991px) {
+  nav.nav {
+    height: auto;
+    max-height: 100%;
+  }
+  nav.nav ul {
+    height: auto;
+    max-height: 100%;
+  }
+  nav.nav ul li {
+    display: block;
+    height: auto;
+    line-height: 44px;
+    padding: 0 20px;
+  }
+  nav.nav div.nav-container--buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 10px 0;
+    padding: 0 20px;
+  }
+  nav.nav div.nav-container--buttons button {
+    width: 100%;
+  }
+  nav.nav div.nav-container--buttons button + button {
+    margin-left: 20px;
+  }
+}
 
 nav.nav--dark ul li {
   color: white;
@@ -52,4 +81,9 @@ nav ul li a {
 
 nav.nav--dark ul li a {
   color: white;
+}
+
+nav.nav form.search {
+  display: block;
+  margin: 20px;
 }
