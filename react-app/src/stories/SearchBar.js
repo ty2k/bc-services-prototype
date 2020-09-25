@@ -1,19 +1,10 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 import "./searchbar.css";
 
-export const SearchBar = ({ icon }) => (
+export const SearchBar = () => (
   <form className="search">
-    <input type="search" aria-label="Search"/>
-    <button className="button--search" type="submit"/>
+    <input type="search" aria-label="Search" />
+    <button className="button--search" type="submit" />
   </form>
 );
-
-SearchBar.propTypes = {
-  icon: PropTypes.bool
-};
-
-SearchBar.defaultProps = {
-  icon: true
-};
