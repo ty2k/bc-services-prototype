@@ -1,14 +1,20 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Header } from "./Header";
-import { Nav } from "./Nav";
+import Header from "./Header";
 import "./page.css";
 
-export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
+export const Page = ({
+  title,
+  userSession,
+  onLogin,
+  onLogout,
+  onCreateAccount,
+}) => (
   <article>
     <Header
-      user={user}
+      title={title}
+      userSession={userSession}
       onLogin={onLogin}
       onLogout={onLogout}
       onCreateAccount={onCreateAccount}
@@ -81,13 +87,17 @@ export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
     </section>
   </article>
 );
+
 Page.propTypes = {
-  user: PropTypes.shape({}),
+  userSession: PropTypes.bool.isRequired,
   onLogin: PropTypes.func.isRequired,
   onLogout: PropTypes.func.isRequired,
   onCreateAccount: PropTypes.func.isRequired,
 };
 
 Page.defaultProps = {
-  user: null,
+  userSession: false,
+  onLogin: () => {},
+  onLogout: () => {},
+  onCreateAccount: () => {},
 };

@@ -5,19 +5,8 @@ import { SearchBar } from "./SearchBar";
 export default {
   title: "Services Page Prototype/SearchBar",
   component: SearchBar,
-  argTypes: {
-    icon: { control: "boolean" },
-  },
 };
 
 const Template = (args) => <SearchBar {...args} />;
 
-export const WithIcon = Template.bind({});
-WithIcon.args = {
-  icon: true
-};
-
-export const WithoutIcon = Template.bind({});
-WithoutIcon.args = {
-  icon: false
-};
+export const Default = Template.bind({});

@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import MediaQuery from "react-responsive";
 
-import { Button } from "./Button";
 import { SearchBar } from "./SearchBar";
 import { Nav } from "./Nav";
+import UserPanel from "./UserPanel";
 import { ReactComponent as Logo } from "./assets/BCID_V_rgb_pos.svg";
 import { ReactComponent as HamburgerIcon } from "./assets/bars-solid.svg";
 import "./header.css";
 
-function Header({ title, user, onLogin, onLogout, onCreateAccount }) {
+function Header({ title, userSession }) {
   const [navHidden, setNavHidden] = useState(true);
 
   function toggleMenu(event) {
@@ -28,19 +28,7 @@ function Header({ title, user, onLogin, onLogout, onCreateAccount }) {
         <div>
           <MediaQuery minWidth={992}>
             <SearchBar />
-            {user ? (
-              <Button size="medium" onClick={onLogout} label="Logout" />
-            ) : (
-              <>
-                <Button size="medium" onClick={onLogin} label="Login" />
-                <Button
-                  primary
-                  size="medium"
-                  onClick={onCreateAccount}
-                  label="Register"
-                />
-              </>
-            )}
+            <UserPanel userSession={userSession} />
           </MediaQuery>
           <MediaQuery maxWidth={991}>
             <a href="/#" onClick={(event) => toggleMenu(event)} id="menu-icon">
@@ -62,15 +50,10 @@ function Header({ title, user, onLogin, onLogout, onCreateAccount }) {
 
 Header.propTypes = {
   title: PropTypes.string,
-  user: PropTypes.bool,
-  onLogin: PropTypes.func.isRequired,
-  onLogout: PropTypes.func.isRequired,
-  onCreateAccount: PropTypes.func.isRequired,
   navHidden: PropTypes.bool.isRequired,
 };
 
 Header.defaultProps = {
-  user: false,
   navHidden: true,
 };
 
