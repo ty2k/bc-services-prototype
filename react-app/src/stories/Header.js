@@ -9,7 +9,7 @@ import { ReactComponent as Logo } from "./assets/BCID_V_rgb_pos.svg";
 import { ReactComponent as HamburgerIcon } from "./assets/bars-solid.svg";
 import "./header.css";
 
-function Header({ title, user, onLogin, onLogout, onCreateAccount }) {
+function Header({ title, userSession }) {
   const [navHidden, setNavHidden] = useState(true);
 
   function toggleMenu(event) {
@@ -28,7 +28,7 @@ function Header({ title, user, onLogin, onLogout, onCreateAccount }) {
         <div>
           <MediaQuery minWidth={992}>
             <SearchBar />
-            <UserPanel />
+            <UserPanel userSession={userSession} />
           </MediaQuery>
           <MediaQuery maxWidth={991}>
             <a href="/#" onClick={(event) => toggleMenu(event)} id="menu-icon">

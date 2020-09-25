@@ -1,6 +1,7 @@
 import React from "react";
 
-import { Header } from "./Header";
+import Header from "./Header";
+import * as UserPanelStories from "./UserPanel.stories";
 
 export default {
   title: "Services Page Prototype/Header",
@@ -9,10 +10,12 @@ export default {
 
 const Template = (args) => <Header {...args} />;
 
-export const LoggedIn = Template.bind({});
-LoggedIn.args = {
-  user: {},
+export const ActiveUserSession = Template.bind({});
+ActiveUserSession.args = {
+  ...UserPanelStories.ActiveUserSession.args,
 };
 
-export const LoggedOut = Template.bind({});
-LoggedOut.args = {};
+export const NoUserSession = Template.bind({});
+NoUserSession.args = {
+  ...UserPanelStories.NoUserSession.args,
+};
