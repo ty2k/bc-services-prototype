@@ -6,10 +6,10 @@ import { ServiceHighlight } from "./stories/ServiceHighlight";
 
 function Services() {
   const [services, setServices] = useState({});
-  const [inputValue, setInputValue] = useState('');
+  const [inputValue, setInputValue] = useState("");
 
   async function fetchData() {
-    const res = await fetch('/api/services');
+    const res = await fetch("/api/services");
     res
       .json()
       .then((res) => setServices(res.services))
@@ -29,7 +29,12 @@ function Services() {
       {/* Search bar */}
       <div className="div--search">
         <h2>Find a program or service</h2>
-        <form>
+        <form
+          autocomplete="off"
+          onSubmit={(e) => {
+            e.preventDefault();
+          }}
+        >
           <label>
             <input
               type="text"
