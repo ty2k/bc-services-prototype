@@ -5,10 +5,17 @@ import Highlighter from "react-highlight-words";
 import "./service.css";
 import { ReactComponent as IconExt } from "./assets/external-link-alt-solid.svg";
 
-export const Service= ({ name, description, url, external, searchTerm }) => (
+export const Service = ({
+  name,
+  description,
+  url,
+  external,
+  searchTerm,
+  ariaLabel,
+}) => (
   <div className="div--service">
     <span className="span--service-title">
-      <a href={url}>
+      <a aria-label={ariaLabel ? ariaLabel : name} href={url}>
         <Highlighter
           highlightClassName="text--highlighted"
           searchWords={[searchTerm]}
@@ -16,7 +23,7 @@ export const Service= ({ name, description, url, external, searchTerm }) => (
           textToHighlight={name}
         />
       </a>
-      { external ? <IconExt/> : null }
+      {external ? <IconExt /> : null}
     </span>
     <p>
       <Highlighter
@@ -34,7 +41,7 @@ Service.propTypes = {
   description: PropTypes.string,
   url: PropTypes.string,
   external: PropTypes.bool,
-  searchTerm: PropTypes.string
+  searchTerm: PropTypes.string,
 };
 
 Service.defaultProps = {
@@ -42,5 +49,5 @@ Service.defaultProps = {
   description: "A description of a service",
   url: "https://gov.bc.ca",
   external: true,
-  searchTerm: ""
+  searchTerm: "",
 };
