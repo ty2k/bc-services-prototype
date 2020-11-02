@@ -37,13 +37,14 @@ function Services() {
         >
           <label>
             <input
+              aria-label="Enter search term"
               type="text"
               name="search"
               onChange={onChangeHandler}
               value={inputValue}
             />
           </label>
-          <button></button>
+          <button aria-label="Search"></button>
         </form>
       </div>
 
