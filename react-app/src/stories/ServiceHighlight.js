@@ -18,17 +18,21 @@ const icons = {
   icon38,
   icon39,
   icon36,
-  icon40
-}
+  icon40,
+};
 
-export const ServiceHighlight= ({ name, icon, url, external, searchTerm }) => (
+export const ServiceHighlight = ({
+  name,
+  icon,
+  url,
+  external,
+  searchTerm,
+  ariaLabel,
+}) => (
   <div className="div--service-highlight">
-    <img
-      src={icons[icon]}
-      alt=""
-    />
+    <img src={icons[icon]} alt="" />
     <span className="span--service-title">
-      <a href={url}>
+      <a aria-label={ariaLabel ? ariaLabel : name} href={url}>
         <Highlighter
           highlightClassName="text--highlighted"
           searchWords={[searchTerm]}
@@ -36,7 +40,7 @@ export const ServiceHighlight= ({ name, icon, url, external, searchTerm }) => (
           textToHighlight={name}
         />
       </a>
-      { external ? <IconExt/> : null }
+      {external ? <IconExt /> : null}
     </span>
   </div>
 );
@@ -46,7 +50,7 @@ ServiceHighlight.propTypes = {
   icon: PropTypes.string,
   url: PropTypes.string,
   external: PropTypes.bool,
-  searchTerm: PropTypes.string
+  searchTerm: PropTypes.string,
 };
 
 ServiceHighlight.defaultProps = {
@@ -54,5 +58,5 @@ ServiceHighlight.defaultProps = {
   icon: "example.svg",
   url: "https://gov.bc.ca",
   external: false,
-  searchTerm: ""
+  searchTerm: "",
 };

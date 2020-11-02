@@ -17,13 +17,13 @@
   "author": "Tyler Krys <Tyler.Krys@gov.bc.ca>",
   "license": "",
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.6"
   },
   "dependencies": {
     "express": "^4.17.1"
   },
   "engines": {
-    "node": ">=12.0.0",
+    "node": ">=14.0.0",
     "npm": ">=6.0.0"
   }
 }

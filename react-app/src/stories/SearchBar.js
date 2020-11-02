@@ -10,7 +10,7 @@ export const SearchBar = () => (
       e.preventDefault();
     }}
   >
-    <input type="search" aria-label="Search" />
-    <button className="button--search" type="submit" />
+    <input type="search" aria-label="Enter search term" />
+    <button className="button--search" type="submit" aria-label="Search" />
   </form>
 );

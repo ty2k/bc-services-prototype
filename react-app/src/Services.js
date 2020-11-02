@@ -37,13 +37,14 @@ function Services() {
         >
           <label>
             <input
+              aria-label="Enter search term"
               type="text"
               name="search"
               onChange={onChangeHandler}
               value={inputValue}
             />
           </label>
-          <button></button>
+          <button aria-label="Search"></button>
         </form>
       </div>
 
@@ -59,6 +60,7 @@ function Services() {
             )
             .map(({ name, url, external, image }, index) => (
               <ServiceHighlight
+                ariaLabel={name && external ? `${name} - External` : null}
                 key={index && ` - ` && name}
                 name={name}
                 icon={image}
@@ -82,6 +84,7 @@ function Services() {
           )
           .map(({ name, description, url, external }, index) => (
             <Service
+              ariaLabel={name && external ? `${name} - External` : null}
               key={index}
               name={name}
               description={description}
