@@ -20,7 +20,7 @@ function Header({ title, userSession }) {
     <header>
       <div className="wrapper">
         <div>
-          <Logo id="logo" />
+          <Logo id="logo" aria-hidden="true" />
           <span className="span--title">
             {title ? title : `Government of British Columbia`}
           </span>
